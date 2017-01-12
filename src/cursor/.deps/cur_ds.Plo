@@ -1,0 +1,333 @@
+src/cursor/cur_ds.lo: src/cursor/cur_ds.c src/include/wt_internal.h \
+ wiredtiger_config.h src/include/wiredtiger_ext.h wiredtiger.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/inttypes.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdbool.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/bits/stdio_lim.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+ /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/sys/stat.h \
+ /usr/include/bits/stat.h /usr/include/sys/time.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /usr/include/dlfcn.h /usr/include/bits/dlfcn.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/xlocale.h /usr/include/bits/setjmp.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h src/include/gcc.h \
+ src/include/hardware.h src/include/swap.h src/include/queue.h \
+ src/include/posix.h src/include/misc.h src/include/mutex.h \
+ src/include/stat.h src/include/dhandle.h src/include/api.h \
+ src/include/async.h src/include/block.h src/include/bloom.h \
+ src/include/btmem.h src/include/btree.h src/include/cache.h \
+ src/include/compact.h src/include/config.h src/include/cursor.h \
+ src/include/dlh.h src/include/error.h src/include/flags.h \
+ src/include/log.h src/include/lsm.h src/include/meta.h src/include/os.h \
+ src/include/schema.h src/include/txn.h src/include/session.h \
+ src/include/connection.h src/include/extern.h src/include/extern_posix.h \
+ src/include/verify_build.h src/include/ctype.i /usr/include/ctype.h \
+ src/include/intpack.i src/include/buf.i src/include/cache.i \
+ src/include/cell.i src/include/mutex.i src/include/txn.i \
+ src/include/bitstring.i src/include/btree.i src/include/btree_cmp.i \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/x86intrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/immintrin.h \
+ src/include/column.i src/include/cursor.i src/include/log.i \
+ src/include/misc.i src/include/os_fhandle.i src/include/os_fs.i \
+ src/include/os_fstream.i src/include/packing.i src/include/serial.i
+
+src/include/wt_internal.h:
+
+wiredtiger_config.h:
+
+src/include/wiredtiger_ext.h:
+
+wiredtiger.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdbool.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/dlfcn.h:
+
+/usr/include/bits/dlfcn.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+src/include/gcc.h:
+
+src/include/hardware.h:
+
+src/include/swap.h:
+
+src/include/queue.h:
+
+src/include/posix.h:
+
+src/include/misc.h:
+
+src/include/mutex.h:
+
+src/include/stat.h:
+
+src/include/dhandle.h:
+
+src/include/api.h:
+
+src/include/async.h:
+
+src/include/block.h:
+
+src/include/bloom.h:
+
+src/include/btmem.h:
+
+src/include/btree.h:
+
+src/include/cache.h:
+
+src/include/compact.h:
+
+src/include/config.h:
+
+src/include/cursor.h:
+
+src/include/dlh.h:
+
+src/include/error.h:
+
+src/include/flags.h:
+
+src/include/log.h:
+
+src/include/lsm.h:
+
+src/include/meta.h:
+
+src/include/os.h:
+
+src/include/schema.h:
+
+src/include/txn.h:
+
+src/include/session.h:
+
+src/include/connection.h:
+
+src/include/extern.h:
+
+src/include/extern_posix.h:
+
+src/include/verify_build.h:
+
+src/include/ctype.i:
+
+/usr/include/ctype.h:
+
+src/include/intpack.i:
+
+src/include/buf.i:
+
+src/include/cache.i:
+
+src/include/cell.i:
+
+src/include/mutex.i:
+
+src/include/txn.i:
+
+src/include/bitstring.i:
+
+src/include/btree.i:
+
+src/include/btree_cmp.i:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/x86intrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/immintrin.h:
+
+src/include/column.i:
+
+src/include/cursor.i:
+
+src/include/log.i:
+
+src/include/misc.i:
+
+src/include/os_fhandle.i:
+
+src/include/os_fs.i:
+
+src/include/os_fstream.i:
+
+src/include/packing.i:
+
+src/include/serial.i:
